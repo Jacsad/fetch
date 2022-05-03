@@ -1,0 +1,43 @@
+#container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 50%;
+    width: 20vw;
+    margin: auto;
+    margin-top: 20%;
+    padding: 25px;
+    background-color: rgb(29, 29, 29);
+   box-shadow: 5px 10px #141414;
+  
+   
+}
+
+#printUserName {
+    color: rgb(0, 136, 255);
+    font-size: 2.4rem;
+}
+
+#printFullName {
+    color: rgb(255, 0, 255);
+    font-size: 2rem;
+}
+
+
+#printLanguages{
+    color: rgb(0, 255, 21);
+    font-size: 1.8rem;
+}
+
+
+#printPermission{
+    color: rgb(229, 255, 0);
+    font-size:1.7rem;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(226, 15, 15);
+    text-decoration: underline;
+}
