@@ -1,4 +1,4 @@
-fetch("http://localhost:3001/profile")
+fetch("http://localhost:3001/userInfo")
 .then(userInfo=>userInfo.json())
 .then(userInfoJSON=>display(userInfoJSON));
 
